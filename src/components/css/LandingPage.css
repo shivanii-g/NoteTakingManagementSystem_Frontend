@@ -1,0 +1,79 @@
+/* --navbar--- */
+#nav{
+    align-items: right;
+   
+}
+
+#nav .navbar{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#nav .navbar .navbar-brand{
+   font-size: 22px;
+}
+
+#nav .navbar .nav-link{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* --- home --- */
+#home{
+    padding: 40px;
+    background-color: khaki;
+}
+
+
+/* --- about --- */
+#about{
+    padding: 40px;
+    background-color: lightblue;
+   
+}
+
+#about .container .row{
+    justify-content: center;
+    padding: 20px;
+    display: inline-table;
+}
+
+.card{
+    /* color: blue; */
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(105, 207, 255, 0.959);
+}
+
+/* --- features --- */
+#features{
+    padding: 40px;
+    background-color: lightcoral;;
+    
+}
+
+#features .container{
+    padding-top: 10px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+#features .container p span{
+    color: tomato;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+/* --- footer --- */
+#footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
